@@ -240,5 +240,33 @@ namespace ZeldaSaveTool.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to [Zelda Save Tool Translation File - 中文]
+        ///Title=OoT 保存转换器
+        ///Drop_It=将您的保存文件拖放到此处
+        ///Supported=支持的格式: {0}
+        ///Version=版本 {0}
+        ///Open_First=首先打开保存文件!
+        ///Supported_Filter=所有支持的文件|*.sra;*.sav;*.gci;*.srm;*.SaveRAM
+        ///SRA_Filter=SRA 文件 (*.sra)|*.sra
+        ///PC_Filter=电脑端口保存的文件 (*.sav)|*.sav
+        ///GCI_Filter=GCI 文件 (*.gci)|*.gci
+        ///SRM_Filter=SRM 文件 (*.srm;*.SaveRAM)|*.srm;*.SaveRAM
+        ///All_Filter=全部 文件 (*.*)|*.*
+        ///Save_As_Title=将转换后的保存文件 &quot;{0}&quot; 另存为
+        ///I=信息
+        ///W=警告
+        ///E=错误
+        ///Exception=异常信息: {0}
+        ///Select_One=仅选择一个要转换的保存文件!
+        ///Invalid=文件格式无效!
+        ///Wrong_Size=文件大小无效！请确保该文件是有效的保存文 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string zh {
+            get {
+                return ResourceManager.GetString("zh", resourceCulture);
+            }
+        }
     }
 }

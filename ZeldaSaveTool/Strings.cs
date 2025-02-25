@@ -72,6 +72,6 @@ internal class Strings {
 	}
 
 	private enum Language {
-		en, de, fr, es,
+		en, de, fr, es, zh,
 	}
 }
